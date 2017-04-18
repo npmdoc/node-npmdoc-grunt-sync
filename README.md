@@ -1,9 +1,14 @@
-# api documentation for  [grunt-sync (v0.6.2)](https://github.com/tomusdrw/grunt-sync.git)  [![npm package](https://img.shields.io/npm/v/npmdoc-grunt-sync.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-grunt-sync) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-grunt-sync.svg)](https://travis-ci.org/npmdoc/node-npmdoc-grunt-sync)
+# npmdoc-grunt-sync
+
+#### api documentation for  [grunt-sync (v0.6.2)](https://github.com/tomusdrw/grunt-sync.git)  [![npm package](https://img.shields.io/npm/v/npmdoc-grunt-sync.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-grunt-sync) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-grunt-sync.svg)](https://travis-ci.org/npmdoc/node-npmdoc-grunt-sync)
+
 #### Task to synchronize two directories. Similar to grunt-copy but updates only files that have been changed.
 
-[![NPM](https://nodei.co/npm/grunt-sync.png?downloads=true)](https://www.npmjs.com/package/grunt-sync)
+[![NPM](https://nodei.co/npm/grunt-sync.png?downloads=true&downloadRank=true&stars=true)](https://www.npmjs.com/package/grunt-sync)
 
-[![apidoc](https://npmdoc.github.io/node-npmdoc-grunt-sync/build/screenCapture.buildNpmdoc.browser._2Fhome_2Ftravis_2Fbuild_2Fnpmdoc_2Fnode-npmdoc-grunt-sync_2Ftmp_2Fbuild_2Fapidoc.html.png)](https://npmdoc.github.io/node-npmdoc-grunt-sync/build/apidoc.html)
+- [https://npmdoc.github.io/node-npmdoc-grunt-sync/build/apidoc.html](https://npmdoc.github.io/node-npmdoc-grunt-sync/build/apidoc.html)
+
+[![apidoc](https://npmdoc.github.io/node-npmdoc-grunt-sync/build/screenCapture.buildCi.browser.%252Ftmp%252Fbuild%252Fapidoc.html.png)](https://npmdoc.github.io/node-npmdoc-grunt-sync/build/apidoc.html)
 
 ![npmPackageListing](https://npmdoc.github.io/node-npmdoc-grunt-sync/build/screenCapture.npmPackageListing.svg)
 
@@ -18,7 +23,6 @@
 {
     "author": {
         "name": "Tomasz Drwiega",
-        "email": "tomusdrw@blacksoft.eu",
         "url": "http://blacksoft.eu"
     },
     "bugs": {
@@ -66,13 +70,11 @@
     "main": "Gruntfile.js",
     "maintainers": [
         {
-            "name": "tomusdrw",
-            "email": "tomusdrw@blacksoft.eu"
+            "name": "tomusdrw"
         }
     ],
     "name": "grunt-sync",
     "optionalDependencies": {},
-    "readme": "ERROR: No README data found!",
     "repository": {
         "type": "git",
         "url": "git://github.com/tomusdrw/grunt-sync.git"
@@ -84,16 +86,6 @@
     "version": "0.6.2"
 }
 ```
-
-
-
-# <a name="apidoc.tableOfContents"></a>[table of contents](#apidoc.tableOfContents)
-
-#### [module grunt-sync](#apidoc.module.grunt-sync)
-
-
-
-# <a name="apidoc.module.grunt-sync"></a>[module grunt-sync](#apidoc.module.grunt-sync)
 
 
 
