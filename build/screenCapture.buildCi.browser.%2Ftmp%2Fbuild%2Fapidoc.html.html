@@ -54,12 +54,70 @@
 
     <li class="apidocModuleLi"><a href="#apidoc.module.grunt-sync">module grunt-sync</a><ol>
 
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.grunt-sync.grunt-sync">
+            function <span class="apidocSignatureSpan"></span>grunt-sync
+            <span class="apidocSignatureSpan">(grunt)</span>
+            </a>
+
+        </li>
+
     </ol></li>
 
 </ol></div>
 
 <div class="apidocSectionDiv">
 <h1><a href="#apidoc.module.grunt-sync" id="apidoc.module.grunt-sync">module grunt-sync</a></h1>
+
+
+    <h2>
+        <a href="#apidoc.element.grunt-sync.grunt-sync" id="apidoc.element.grunt-sync.grunt-sync">
+        function <span class="apidocSignatureSpan"></span>grunt-sync
+        <span class="apidocSignatureSpan">(grunt)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">grunt-sync = function (grunt) {
+  require('time-grunt')(grunt);
+
+  // Project configuration.
+  grunt.initConfig({
+    files: ['Gruntfile.js', 'tasks/**/*.js', 'test/*.js'],
+
+    watch: {
+      all: {
+        files: '&lt;%= files %&gt;'
+      }
+    },
+
+    simplemocha: {
+      all: {
+        src: 'test/*.js'
+      }
+    },
+
+    jshint: {
+      all: '&lt;%= files %&gt;'
+    },
+
+    sync: grunt.file.readJSON('sync.json'),
+
+    complexity: grunt.file.readJSON('complexity.json')
+  });
+  grunt.loadNpmTasks('grunt-simple-mocha');
+  grunt.loadNpmTasks('grunt-complexity');
+  grunt.loadNpmTasks('grunt-contrib-jshint');
+
+  grunt.registerTask('default', ['jshint', 'simplemocha', 'complexity']);
+
+  // Used for testing only, you shouldn't add this to your code:
+  grunt.loadTasks('tasks');
+
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
 
 </div>
 
