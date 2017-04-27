@@ -1,6 +1,6 @@
 # npmdoc-grunt-sync
 
-#### api documentation for  [grunt-sync (v0.6.2)](https://github.com/tomusdrw/grunt-sync.git)  [![npm package](https://img.shields.io/npm/v/npmdoc-grunt-sync.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-grunt-sync) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-grunt-sync.svg)](https://travis-ci.org/npmdoc/node-npmdoc-grunt-sync)
+#### basic api documentation for  [grunt-sync (v0.6.2)](https://github.com/tomusdrw/grunt-sync.git)  [![npm package](https://img.shields.io/npm/v/npmdoc-grunt-sync.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-grunt-sync) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-grunt-sync.svg)](https://travis-ci.org/npmdoc/node-npmdoc-grunt-sync)
 
 #### Task to synchronize two directories. Similar to grunt-copy but updates only files that have been changed.
 
@@ -83,7 +83,8 @@
         "lint": "semistandard",
         "test": "mocha"
     },
-    "version": "0.6.2"
+    "version": "0.6.2",
+    "bin": {}
 }
 ```
 
